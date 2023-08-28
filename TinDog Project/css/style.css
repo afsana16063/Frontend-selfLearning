@@ -1,0 +1,85 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+.btn-primary:hover {
+  background-color: rgb(197, 194, 194);
+  border: 1px solid rgb(197, 194, 194);
+}
+
+.btn-outline-secondary {
+  color: white;
+  border: solid 1px white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+  color: black;
+}
+
+.dog-profile {
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+
+.btn-outline-primary {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.btn-primary {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+
+.btn-primary:hover {
+  background-color: rgb(69, 67, 67);
+}
+
+.text-bg-primary {
+  background-color: black;
+}
+
+.dark-header {
+  background-color: black;
+  color: white;
+}
